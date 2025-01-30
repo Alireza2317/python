@@ -11,7 +11,6 @@ while people:
 	people.rotate(1 - K)
 	person = people.popleft()
 	order_of_people.append(person)
+
 print(order_of_people)
-
-
 
