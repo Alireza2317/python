@@ -21,6 +21,10 @@ class Dog(Animal):
 
 # it is not possible to create an instance of an abstract class
 # dog = Animal() -> TypeError
+# and it is not possible to create a class that inherits from an abstract class
+# and does not implement all abstract methods
+# so a Dog class without the move method is not possible -> TypeError
+
 
 dog = Dog()
 print(dog.make_sound())
